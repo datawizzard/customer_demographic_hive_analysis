@@ -32,4 +32,6 @@ These datasets comprise of bulk and raw data that needs to be transformed and cl
 <p><b>Credit Card</b>: This table contain all credit card data information.</p>
 <img width="150" alt="CreditCard" src="https://user-images.githubusercontent.com/100192267/158635208-dfacf7cb-6f37-4ffc-ab86-4cb61bddc522.png">
 
+<b>Project Architecture</b>
+![Screenshot (9)](https://user-images.githubusercontent.com/100192267/158649770-9d80409e-6864-468d-bf61-dbbcd310c423.png)
 
