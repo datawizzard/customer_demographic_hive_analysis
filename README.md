@@ -33,5 +33,6 @@ These datasets comprise of bulk and raw data that needs to be transformed and cl
 <img width="150" alt="CreditCard" src="https://user-images.githubusercontent.com/100192267/158635208-dfacf7cb-6f37-4ffc-ab86-4cb61bddc522.png">
 
 <b>Project Architecture</b>
-![Screenshot (9)](https://user-images.githubusercontent.com/100192267/158649770-9d80409e-6864-468d-bf61-dbbcd310c423.png)
+![sql_hive_architecture](https://user-images.githubusercontent.com/100192267/159216434-fe5e078f-ce5c-436e-97d9-484a37aec210.jpg)
+
 
