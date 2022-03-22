@@ -12,7 +12,21 @@ where \$CONDITIONS" --split-by CustomerID</p>
 
 
 <b>Create new table and load data from manage table to this new table</b>
-<p>create table ext_cust as select customerid,territoryid,accountnumber,customertype,modifieddate,xpath(demographics,'IndividualSurvey/TotalPurchaseYTD/text()'),xpath(demographics,'IndividualSurvey/DateFirstPurchase/text()'),xpath(demographics,'IndividualSurvey/BirthDate/text()'),xpath(demographics,'IndividualSurvey/MaritalStatus/text()'),xpath(demographics,'IndividualSurvey/YearlyIncome/text()'),xpath(demographics,'IndividualSurvey/Gender/text()'),xpath(demographics,'IndividualSurvey/TotalChildren/text()'),xpath(demographics,'IndividualSurvey/NumberChildrenAtHome/text()'),xpath(demographics,'IndividualSurvey/Education/text()'),xpath(demographics,'IndividualSurvey/Occupation/text()'),xpath(demographics,'IndividualSurvey/HomeOwnerFlag/text()'),xpath(demographics,'IndividualSurvey/NumberCarsOwned/text()'),xpath(demographics,'IndividualSurvey/CommuteDistance/text()') from cust_indi;</p>
+<p>create table ext_cust as select customerid,territoryid,accountnumber,customertype,modifieddate,
+xpath(demographics,'IndividualSurvey/TotalPurchaseYTD/text()'),
+xpath(demographics,'IndividualSurvey/DateFirstPurchase/text()'),
+xpath(demographics,'IndividualSurvey/BirthDate/text()'),
+xpath(demographics,'IndividualSurvey/MaritalStatus/text()'),
+xpath(demographics,'IndividualSurvey/YearlyIncome/text()'),
+xpath(demographics,'IndividualSurvey/Gender/text()'),
+xpath(demographics,'IndividualSurvey/TotalChildren/text()'),
+xpath(demographics,'IndividualSurvey/NumberChildrenAtHome/text()'),
+xpath(demographics,'IndividualSurvey/Education/text()'),
+xpath(demographics,'IndividualSurvey/Occupation/text()'),
+xpath(demographics,'IndividualSurvey/HomeOwnerFlag/text()'),
+xpath(demographics,'IndividualSurvey/NumberCarsOwned/text()'),
+xpath(demographics,'IndividualSurvey/CommuteDistance/text()')
+from cust_indi;</p>
 
 
 <b>Sqoop import for credit card table</b>
